@@ -2,9 +2,9 @@
 class Dog 
   attr_reader :name
   
-  puppy_directory
+  @@puppy_directory = []
   
   def initialize(name)
     @name = name
-    self << 
+    self << puppy_directory
 end

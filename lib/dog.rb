@@ -6,7 +6,7 @@ class Dog
   
   def initialize(name)
     @name = name
-    self << @@puppy_directory
+    @@puppy_directory << self
   end
     
 end
